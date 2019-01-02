@@ -59,6 +59,7 @@ var polaroidGallery = (function () {
             ]
         var myArr = jsonData;
         setGallery(myArr);
+        init();
     }
 
     function setGallery(arr) {
