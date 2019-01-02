@@ -17,13 +17,14 @@
 	    <button id="preview">&lt; 前一张</button>
 	    <button id="next">下一张 &gt;</button>
 	</div>
-	<audio src="1773650237_1530075258805.mp3" controls="controls" loop="loop" autoplay="autoplay">
+	<audio src="1773650237_1530075258805.mp3" controls="controls" loop="loop" autoplay="autoplay" id="audio">
 	</audio>
 	<script type="text/javascript" src="js/polaroid-gallery.js"></script>
 	<script>
 	    window.onload = function () {
 	        new polaroidGallery();
 	    }
+	    document.getElementById('audio').play();
 	</script>
 </body>
 </html>
